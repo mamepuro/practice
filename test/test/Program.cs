@@ -8,7 +8,7 @@ namespace test
     {
         public static void Main(string[] args)
         {
-            var f_list = new Fibonacci(10);
+            var f_list = new Prime(50);
             foreach (var value in f_list)
             {
                 Console.WriteLine(value);
